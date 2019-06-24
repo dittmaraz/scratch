@@ -1,0 +1,19 @@
+{
+  "name": "scratch",
+  "version": "1.0.0",
+  "description": "Scratch paper",
+  "bin": {
+    "scr": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "node-cmd": "^3.0.0",
+    "open": "^6.3.0"
+  }
+}
