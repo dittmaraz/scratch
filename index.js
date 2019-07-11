@@ -48,3 +48,14 @@ cmdNode.get(
 function log(txt){
     console.log(txt)
 }
+
+
+const usage = function() {
+  const usageText = `
+  scratch sets up an en
+
+  usage:
+    scratch <package-name>
+`
+  console.log(usageText)
+}

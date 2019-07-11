@@ -1,12 +1,27 @@
 # scratch
 
-##### Scratch takes one argument, a npm package name. Scratch create an environment to easily figure out how a package works
+> Need to learn what a package can do? Scratch sets up an environment quickly so you can learn what a package can do.
+> 
 
-scratch will
-* create new folder in projects folder named "package_testing"
-* npm init -y
-* npm install "package"
-* opens vscode
-* open a index.js
-* creates a variable with a require statement
-* npm home "package"
+## Usage
+
+```shell
+$ scratch chalk
+```
+OR
+```shell
+$ scr chalk
+```
+
+## Install
+
+With [npm](https://npmjs.org/) installed, run
+
+```
+$ npm install -g scratch 
+```
+
+## License
+
+MIT
+
